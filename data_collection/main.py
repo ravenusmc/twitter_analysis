@@ -4,15 +4,7 @@
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 import json
 
-from test import *
-
-print(name)
-
-#Twitter API information. 
-ACCESS_TOKEN = '2958973129-snuOBkA0uEncZrUJ6sPd8J43FnRrYO5ewUMIlK5'
-ACCESS_SECRET = 'NM8s7gcF0RFrrakKqZgFi6nHJUDyFA1bYK5Q84VS2e7Rh'
-CONSUMER_KEY = 'LZ7rRbyPtW27zw5aRbBF9f6zh'
-CONSUMER_SECRET = 'i5uel1CC3Ozl6WymosCTuGSI8mPObUetoAII4tfy1yBadHQ7YC'
+from keys import *
 
 #Getting authorization from the API. 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
