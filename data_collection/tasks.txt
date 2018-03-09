@@ -1,0 +1,18 @@
+
+-I have to get the tweets -DONE 
+-Clean the tweets
+-get sentiment from the tweet -DONE 
+-get the location from the tweet 
+  -clean the location 
+  -save as variable 
+-Place the tweet in the correct location based on sentment
+-sentiment possibly go into array, then get average of the sentiment 
+
+Do to some error, I have to get the location first and then tweet 
+
+
+CSV file 
+date, state, sentiment_avg 
+
+
+
