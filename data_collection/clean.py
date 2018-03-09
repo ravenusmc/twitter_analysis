@@ -28,6 +28,52 @@ class Clean():
         tweet = ' '.join(tweet_list)
         return tweet
 
+    #This method will turn the location to a list. 
+    def location_to_list(self, tweet_location):
+        tweet_location_list = tweet_location.split()
+        return loc_list
+
+    #This method will convert the strings in the loc_list to lowercase to help with matching in the 
+    #match_location function. 
+    #def list_lower_case(self, loc_list):
+
     #This method will clean the location portion of the tweet. 
-    #def clean_location(self, tweet_location):
+    # def match_location(self, tweet_list):
+    #     if "Alabama" in tweet_list or 'AL' in tweet_list:
+
+
+
+
+if "LA" in one or "Jefferson," in one:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
