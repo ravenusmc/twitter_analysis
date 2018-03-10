@@ -23,48 +23,23 @@
 #   else: 
 #     count += 1
 
+
+one = ['"douglassville,', 'pa"']
+two = ['"chicago,', 'il"']
+three = ['"murrysville,pa"']
+# ['"Poinciana,', 'FL"']
+# ['"Upstate', 'NY"']
+
+print(two[1])
   
-# # put the list back into a string 
-# tweet = ' '.join(tweet)
-# print(tweet)
+if 'il"' in two or 'Illinois"':
+  print('yay')
+else:
+  print('nay')
 
+if 'pa"' in three:
+  print('yay')
+else:
+  print('nay')
 
-location = "Venice, CA"
-location = location.split()
-print(location)
-
-correct_size = []
-count = 0
-while count < len(location):
-    loc = location[count].lower()
-    correct_size.append(loc)
-    print(count)
-    count += 1
-print(correct_size)
-
-
-# count = 0
-# print(len(location))
-# while count < len(location):
-#     loc = location[count].lower()
-#     location.append(loc)
-#     count += 1
-#     print(count)
-# print(location)
-
-
-# one = "Alabama"
-# one = one.split()
-# print(one)
-# print(one[0].lower())
-# if one[0].lower() == 'alabam':
-#   print('yay')
-# else:
-#   print('nay')
-
-
-# for w in location:
-#     w = w.lower()
-#     location.append(w)
-#     print(w)
 

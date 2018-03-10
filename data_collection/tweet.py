@@ -28,29 +28,31 @@ class Tweets():
         #interating through all of the tweets. 
         for tweet in self.iterator:
             if count != 4:
+
                 #Getting the location of the tweet. 
                 tweet_location = json.dumps(tweet['user']['location'])
                 print(tweet_location)
-
+                #print(tweet_location)
+                loc_list = clean.location_to_list(tweet_location)
+                print(loc_list)
+                lower_case =clean.list_lower_case(loc_list)
+                # print(lower_case)
                 #Getting the text of the tweet.
                 tweet_text = json.dumps(tweet['text'])
-                print(count)
-                print(tweet_text)
-                print('---------------------')
+
+
                 #Turning the tweet to a list
                 tweet_list = clean.turn_to_list(tweet_text)
                 #cleaning the tweet. 
                 tweet_list = clean.clean_tweet(tweet_list)
                 tweet = clean.tweet_to_string(tweet_list)
-                print(tweet)
+
+
                 #Getting the language analysis of the tweet. 
-                sent_value = sentiment.examine_tweet(tweet)
-                # print(type(sent_value))
+                #sent_value = sentiment.examine_tweet(tweet)
+
                 
-                # input()
                 
-                # print(json.dumps(tweet['text']))
-                #print(json.dumps(tweet['user']['location']))
             #breaking out of the loop when the counter reaches my specified number. 
             else: 
                 break 
