@@ -25,43 +25,55 @@ class Tweets():
         sentiment = Language_Analysis()
         #setting a count 
         count = 0
+        data_container = []
         #interating through all of the tweets. 
-        for tweet in self.iterator:
-            if count != 4:
-
-                #Getting the location of the tweet. 
-                tweet_location = json.dumps(tweet['user']['location'])
-                print(tweet_location)
-                #print(tweet_location)
-                loc_list = clean.location_to_list(tweet_location)
-                print(loc_list)
-                lower_case =clean.list_lower_case(loc_list)
-                # print(lower_case)
-                #Getting the text of the tweet.
-                tweet_text = json.dumps(tweet['text'])
+        with open("tweet_data.csv", "w") as csv_file:
+            csv_writer = writer(csv_file)
+            csv_writer.writerow(["day", "state", "sentiment"])
+            for tweet in self.iterator:
+                if count != 500:
 
 
-                #Turning the tweet to a list
-                tweet_list = clean.turn_to_list(tweet_text)
-                #cleaning the tweet. 
-                tweet_list = clean.clean_tweet(tweet_list)
-                tweet = clean.tweet_to_string(tweet_list)
+                    day = 1
+
+                    #Getting the text of the tweet.
+                    try:
+                        tweet_text = json.dumps(tweet['text'])
+                    except KeyError:
+                        print('Error')
 
 
-                #Getting the language analysis of the tweet. 
-                #sent_value = sentiment.examine_tweet(tweet)
+                    #Turning the tweet to a list
+                    tweet_list = clean.turn_to_list(tweet_text)
+                    #cleaning the tweet. 
+                    tweet_list = clean.clean_tweet(tweet_list)
+                    t_text = clean.tweet_to_string(tweet_list)
 
+                    #Getting the language analysis of the tweet. 
+                    sent_value = sentiment.examine_tweet(t_text)
+
+                    #Getting the location of the tweet. 
+                    try:
+                        tweet_location = json.dumps(tweet['user']['location'])
+                    except KeyError:
+                        print('Error')
+
+                    tweet_location = clean.location_to_lowercase(tweet_location)
+                    state = clean.location_to_state(tweet_location)
+                    print(count)
+                    if state != None:
+                        csv_writer.writerow([day, state, sent_value])
                 
-                
-            #breaking out of the loop when the counter reaches my specified number. 
-            else: 
-                break 
-            count += 1
+                #breaking out of the loop when the counter reaches my specified number. 
+                else: 
+                    print('DONE!!')
+                    break 
+                count += 1
 
 
 
-test = Tweets()
-test.get_tweet()
+tweet = Tweets()
+tweet.get_tweet()
 
 
 #Getting authorization from the API. 
