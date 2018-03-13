@@ -38,130 +38,110 @@ class Clean():
     #This method will place the location by state. I wrote this by hand. It was not fun. 
     def location_to_state(self, tweet_location):
         if 'alabama' in tweet_location or 'al ' in tweet_location:
-            state = "al"
+            state = "alabama"
         elif 'alaska' in tweet_location or 'ak ' in tweet_location:
-            state = "ak"
+            state = "alaska"
         elif 'arizona' in tweet_location or 'az ' in tweet_location:
-            state = "az"
+            state = "arizona"
         elif 'arkansas' in tweet_location or 'ar ' in tweet_location:
-            state = "ar"
+            state = "arkansas"
         elif 'california' in tweet_location or 'ca ' in tweet_location:
-            state = "ca"
+            state = "california"
         elif 'colorado' in tweet_location or 'co ' in tweet_location:
-            state = "co"
+            state = "colorado"
         elif 'connecticut' in tweet_location or 'ct ' in tweet_location:
-            state = "ct"
+            state = "connecticut"
         elif 'delaware' in tweet_location or 'de ' in tweet_location:
-            state = "de"
+            state = "delaware"
         elif 'florida' in tweet_location or 'fl ' in tweet_location:
-            state = "fl"
+            state = "florida"
         elif 'georgia' in tweet_location or 'ga ' in tweet_location:
-            state = "ga"
+            state = "georgia"
         elif 'hawaii' in tweet_location or 'hi ' in tweet_location:
-            state = "hi"
+            state = "hawaii"
         elif 'idaho' in tweet_location or 'id ' in tweet_location:
-            state = "id"
+            state = "idaho"
         elif 'illinois' in tweet_location or 'il ' in tweet_location:
-            state = "il"
+            state = "illinois"
         elif 'indiana' in tweet_location or 'in ' in tweet_location:
-            state = "in"
+            state = "indiana"
         elif 'iowa' in tweet_location or 'ia ' in tweet_location:
-            state = "ia"
+            state = "iowa"
         elif 'kansas' in tweet_location or 'ks ' in tweet_location:
-            state = "ks"
-        elif 'kentcky' in tweet_location or 'ky ' in tweet_location:
-            state = "ky"
+            state = "kansas"
+        elif 'kentucky' in tweet_location or 'ky ' in tweet_location:
+            state = "kentucky"
         elif 'louisiana' in tweet_location or 'la ' in tweet_location:
-            state = "la"
+            state = "louisiana"
         elif 'maine' in tweet_location or 'me ' in tweet_location:
-            state = "me"
+            state = "maine"
         elif 'maryland' in tweet_location or 'md ' in tweet_location:
-            state = "md"
+            state = "maryland"
         elif 'massachusetts' in tweet_location or 'ma ' in tweet_location:
-            state = "ma"
+            state = "massachusetts"
         elif 'michigan' in tweet_location or 'mi ' in tweet_location:
-            state = "mi"
+            state = "michigan"
         elif 'minnesota' in tweet_location or 'mn ' in tweet_location:
-            state = "mn"
+            state = "minnesota"
         elif 'mississippi' in tweet_location or 'ms ' in tweet_location:
-            state = "ms"
+            state = "mississippi"
         elif 'missouri' in tweet_location or 'mo ' in tweet_location:
-            state = "mo"
+            state = "missouri"
         elif 'montana' in tweet_location or 'mt ' in tweet_location:
-            state = "mt"
+            state = "montana"
         elif 'nebraska' in tweet_location or 'ne ' in tweet_location:
-            state = "ne"
+            state = "nebraska"
         elif 'nevada' in tweet_location or 'nv ' in tweet_location:
-            state = "nv"
+            state = "nevada"
         elif 'new hampshire' in tweet_location or 'nh ' in tweet_location:
-            state = "nh"
+            state = "new hampshire"
         elif 'new jersey' in tweet_location or 'nj ' in tweet_location:
-            state = "nj"
+            state = "new jersey"
         elif 'new mexico' in tweet_location or 'nm ' in tweet_location:
-            state = "nm"
+            state = "new mexico"
         elif 'new york' in tweet_location or 'ny ' in tweet_location:
-            state = "ny"
+            state = "new york"
         elif 'north carolina' in tweet_location or 'nc ' in tweet_location:
-            state = "nc"
+            state = "north carolina"
         elif 'north dakota' in tweet_location or 'nd ' in tweet_location:
-            state = "nd"
+            state = "north dakota"
         elif 'ohio' in tweet_location or 'oh ' in tweet_location:
-            state = "oh"
+            state = "ohio"
         elif 'oklahoma' in tweet_location or 'ok ' in tweet_location:
-            state = "ok"
+            state = "oklahoma"
         elif 'oregon' in tweet_location or 'or ' in tweet_location:
-            state = "or"
+            state = "oregon"
         elif 'pennsylvania' in tweet_location or 'pa ' in tweet_location:
-            state = "pa"
+            state = "pennsylvania"
         elif 'rhode island' in tweet_location or 'ri ' in tweet_location:
-            state = "ri"
+            state = "rhode island"
         elif 'south carolina' in tweet_location or 'sc ' in tweet_location:
-            state = "sc"
+            state = "south carolina"
         elif 'south dakota' in tweet_location or 'sd ' in tweet_location:
-            state = "sd"
+            state = "south dakota"
         elif 'tennessee' in tweet_location or 'tn ' in tweet_location:
-            state = "tn"
+            state = "tennessee"
         elif 'texas' in tweet_location or 'tx ' in tweet_location:
-            state = "tx"
+            state = "texas"
         elif 'utah' in tweet_location or 'ut ' in tweet_location:
-            state = "ut"
+            state = "utah"
         elif 'vermont' in tweet_location or 'vt ' in tweet_location:
-            state = "vt"
+            state = "vermont"
         elif 'virginia' in tweet_location or 'va ' in tweet_location:
-            state = "va"
+            state = "virginia"
         elif 'washington' in tweet_location or 'wa ' in tweet_location:
-            state = "wa"
+            state = "washington"
         elif 'west virginia' in tweet_location or 'wv ' in tweet_location:
-            state = "wv"
+            state = "west virginia"
         elif 'wisconsin' in tweet_location or 'wi ' in tweet_location:
-            state = "wi"
+            state = "wisconsin"
         elif 'wyoming' in tweet_location or 'wy ' in tweet_location:
-            state = "wy"
-        elif 'dc' in tweet_location:
-            state = "dc"
+            state = "wyoming"
         else:
             state = None
         return state
 
-    #This method will turn the location to a list. 
-    # def location_to_list(self, tweet_location):
-    #     loc_list = tweet_location.split()
-    #     return loc_list
 
-    # This method will convert the strings in the loc_list to lowercase to help with matching in the 
-    # match_location function. 
-    # def list_lower_case(self, loc_list):
-    #     lower_case = []
-    #     count = 0
-    #     while count < len(loc_list):
-    #         loc = loc_list[count].lower()
-    #         lower_case.append(loc)
-    #         count += 1
-    #     return lower_case
-
-    #This method will clean the location portion of the tweet. 
-    # def match_location(self, tweet_list):
-    #     if "Alabama" in tweet_list or 'AL' in tweet_list:
 
 
 

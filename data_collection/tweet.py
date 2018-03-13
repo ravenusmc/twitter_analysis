@@ -27,16 +27,18 @@ class Tweets():
         count = 0
         data_container = []
         #interating through all of the tweets. 
-        with open("tweet_data.csv", "w") as csv_file:
+        #use "w" to write for a new file, "a" to append to add new data
+        with open("sentiment_data.csv", "w") as csv_file:
             csv_writer = writer(csv_file)
+            #The below line should be commented out depending on whether I'm appending or not. 
             csv_writer.writerow(["day", "state", "sentiment"])
             for tweet in self.iterator:
-                if count != 500:
-
+                if count != 300:
 
                     day = 1
 
                     #Getting the text of the tweet.
+                    #Using exceptions to catch when the tweets have errors. 
                     try:
                         tweet_text = json.dumps(tweet['text'])
                     except KeyError:
@@ -52,7 +54,7 @@ class Tweets():
                     #Getting the language analysis of the tweet. 
                     sent_value = sentiment.examine_tweet(t_text)
 
-                    #Getting the location of the tweet. 
+                    #Getting the location of the tweet as well as more exception handling.  
                     try:
                         tweet_location = json.dumps(tweet['user']['location'])
                     except KeyError:
@@ -62,6 +64,7 @@ class Tweets():
                     state = clean.location_to_state(tweet_location)
                     print(count)
                     if state != None:
+                        state = state.title()
                         csv_writer.writerow([day, state, sent_value])
                 
                 #breaking out of the loop when the counter reaches my specified number. 
