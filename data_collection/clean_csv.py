@@ -2,6 +2,7 @@
 #the sentiment values added up per state. 
 
 #Importing files for use in this file 
+from csv import writer
 import math
 import numpy as np
 import pandas as pd
@@ -26,16 +27,21 @@ class Clean_CSV():
         'virginia', 'washington', 'west virginia', 'wisconsin', 'wyoming']
         #probably need an outer loop where I search through the day values and then increment by one. 
         #or do a search by state and day where I increment the day by one and cut it off at the max value?
-        for state in states:
-            state_info = self.data.loc[self.data['state'] == state.title()]
-            day = state_info.iloc[0][0]
-            state = state_info.iloc[0][1]
-            avg = state_info['sentiment'].mean()
-            if math.isnan(avg) != True:
-                print(day)
-                print(avg)
-                print(state)
-                input()
+        with open("final_data.csv", "w") as csv_file:
+            csv_writer = writer(csv_file)
+            csv_writer.writerow(["day", "state", "avg"])
+            day = 1
+            for state in states:
+                state_info = self.data.loc[self.data['state'] == state.title()]
+                # state_info = self.data[(self.data['state']== state.title()) & (self.data['day']== 1)]
+                #excetion handling to deal with situations where an error occurs. 
+                try:
+                    state = state_info.iloc[0][1]
+                except IndexError:
+                    print('Error')
+                avg = state_info['sentiment'].mean()
+                if math.isnan(avg) != True:
+                    csv_writer.writerow([day, state, avg])
 
             # print(state_info['sentiment'].mean())
             # input()
@@ -45,4 +51,5 @@ class Clean_CSV():
 
 
 csv = Clean_CSV()
+# csv.test()
 csv.new_csv()

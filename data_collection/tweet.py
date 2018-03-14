@@ -33,9 +33,9 @@ class Tweets():
             #The below line should be commented out depending on whether I'm appending or not. 
             csv_writer.writerow(["day", "state", "sentiment"])
             for tweet in self.iterator:
-                if count != 300:
+                if count != 500:
 
-                    day = 1
+                    day = 2
 
                     #Getting the text of the tweet.
                     #Using exceptions to catch when the tweets have errors. 
@@ -62,7 +62,6 @@ class Tweets():
 
                     tweet_location = clean.location_to_lowercase(tweet_location)
                     state = clean.location_to_state(tweet_location)
-                    print(count)
                     if state != None:
                         state = state.title()
                         csv_writer.writerow([day, state, sent_value])

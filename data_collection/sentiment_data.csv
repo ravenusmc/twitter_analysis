@@ -1,87 +1,121 @@
 day,state,sentiment
-1,Iowa,0.35
-1,Florida,0.005681818181818177
-1,Washington,0.07499999999999998
-1,Wisconsin,-0.125
-1,Hawaii,-0.18571428571428572
-1,Florida,0.0
-1,New York,0.0
-1,Florida,0.2556818181818182
-1,Virginia,0.0
-1,Indiana,0.09375
-1,New Jersey,0.0
-1,New Jersey,0.0
-1,California,0.5
-1,Massachusetts,0.2875
-1,Texas,-0.5055555555555555
-1,California,0.0
-1,Texas,-0.18571428571428572
-1,Maine,-0.22499999999999998
-1,North Dakota,0.0
-1,North Dakota,0.0
-1,California,0.0
-1,Washington,-0.4
-1,Washington,1.0
-1,Indiana,0.0
-1,Wyoming,-0.3333333333333333
-1,Michigan,0.0
-1,North Carolina,0.0
-1,New York,0.0
-1,Indiana,0.0
-1,New York,0.0
-1,New York,-0.2
-1,California,0.0
-1,Alabama,0.5
-1,Rhode Island,0.8
-1,Texas,0.0
-1,Virginia,0.0
-1,Ohio,0.0
-1,Arizona,0.0
-1,Arizona,0.0
-1,Arizona,0.0
-1,Arizona,0.0
-1,Indiana,0.0
-1,Tennessee,-0.7
-1,Kansas,0.0
-1,Indiana,-0.2
-1,Virginia,0.4
-1,Florida,0.0
-1,Alabama,0.25
-1,Texas,0.0
-1,Iowa,0.0
-1,Florida,0.25
-1,New York,0.0
-1,California,0.0
-1,Mississippi,0.6
-1,Iowa,0.0
-1,Alabama,0.047272727272727265
-1,Colorado,-0.4
-1,Nebraska,-0.08333333333333333
-1,Ohio,0.0
-1,New York,-0.1
-1,Missouri,0.1590909090909091
-1,Indiana,-0.08787878787878789
-1,Kansas,0.16666666666666666
-1,Alabama,0.5
-1,Kansas,0.0
-1,Texas,0.5
-1,Massachusetts,0.0
-1,Colorado,0.0
-1,Washington,-0.08333333333333333
-1,Arizona,0.06666666666666667
-1,Oregon,-0.16666666666666666
-1,North Carolina,0.24999999999999997
-1,Michigan,0.0
-1,Washington,0.0
-1,Mississippi,0.0
-1,California,0.5
-1,California,0.0
-1,Pennsylvania,0.30476190476190473
-1,North Carolina,-0.1
-1,Maine,-0.6875
-1,Illinois,0.3125
-1,Florida,0.0
-1,Massachusetts,-0.027777777777777773
-1,Indiana,0.0
-1,Minnesota,0.0
-1,New Hampshire,0.5
+2,North Carolina,0.0
+2,Florida,0.15
+2,Missouri,0.06666666666666667
+2,California,-0.10000000000000002
+2,California,0.2
+2,Utah,0.0
+2,North Carolina,-0.1875
+2,Alabama,0.0
+2,Indiana,0.0
+2,Arizona,0.0
+2,Texas,0.075
+2,Wisconsin,0.0
+2,Florida,0.0
+2,Virginia,0.16
+2,California,0.0
+2,Colorado,0.425
+2,Indiana,0.375
+2,North Dakota,0.0
+2,Michigan,0.2
+2,Indiana,0.0
+2,Iowa,0.8
+2,Florida,0.21212121212121213
+2,Arkansas,0.0
+2,Alabama,0.0
+2,Connecticut,0.16
+2,New Jersey,0.0
+2,Texas,0.0
+2,Kentucky,0.3333333333333333
+2,California,0.0
+2,Utah,0.0
+2,California,-0.2
+2,Indiana,0.0
+2,New York,0.0
+2,New York,-0.3
+2,Florida,0.0
+2,Maine,0.0
+2,Oregon,0.2
+2,Massachusetts,0.0
+2,Florida,0.0
+2,Kansas,-0.5
+2,New York,0.02500000000000001
+2,Georgia,-0.5
+2,Florida,0.29523809523809524
+2,Utah,0.25
+2,Iowa,0.0
+2,Nevada,0.41111111111111115
+2,Alabama,0.0
+2,Indiana,0.2857142857142857
+2,Massachusetts,0.2
+2,Iowa,0.057142857142857134
+2,Utah,0.0
+2,California,0.06818181818181818
+2,California,0.3
+2,Maryland,0.0
+2,Kentucky,0.11212121212121212
+2,Florida,0.0
+2,Nebraska,-0.25
+2,Oregon,0.0
+2,Texas,-0.6
+2,Pennsylvania,-0.3
+2,California,-0.5
+2,Maine,0.0
+2,Texas,0.1
+2,Georgia,0.0
+2,Virginia,0.2375
+2,Massachusetts,0.3
+2,Minnesota,0.0
+2,California,0.05
+2,Texas,0.3
+2,Oregon,0.0
+2,New York,-0.1714285714285714
+2,North Carolina,-0.65
+2,Nevada,0.1
+2,Florida,0.0
+2,Oklahoma,0.0
+2,Florida,0.7
+2,Indiana,0.0
+2,North Dakota,0.3
+2,Montana,0.3
+2,Florida,0.11212121212121212
+2,North Carolina,0.175
+2,New York,0.0
+2,Virginia,0.0
+2,Texas,0.0
+2,Indiana,0.0
+2,California,0.0
+2,Alabama,0.25
+2,Arizona,0.4000000000000001
+2,Maine,-0.4666666666666666
+2,Hawaii,0.3
+2,Utah,0.35
+2,Pennsylvania,0.0
+2,Florida,-0.15555555555555559
+2,Washington,-0.5
+2,New Jersey,0.0
+2,Texas,0.0
+2,Texas,0.5
+2,California,0.0
+2,Virginia,0.2857142857142857
+2,Florida,-0.10000000000000003
+2,Florida,0.0
+2,Florida,0.25
+2,Texas,-0.3
+2,Massachusetts,0.1
+2,Indiana,0.20499999999999996
+2,Kentucky,0.5
+2,Florida,0.3
+2,California,0.0
+2,Arkansas,0.0
+2,California,0.21250000000000002
+2,Indiana,0.0
+2,New York,0.0
+2,Florida,0.0
+2,Wyoming,-0.05
+2,Texas,-0.1
+2,Kansas,0.0
+2,Virginia,9.25185853854297e-18
+2,Texas,-0.15555555555555559
+2,California,0.21250000000000002
+2,Michigan,0.8

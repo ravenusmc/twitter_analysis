@@ -18,6 +18,9 @@
 # def match_location(self, tweet_list):
 #     if "Alabama" in tweet_list or 'AL' in tweet_list:
 
+California
+California
+
 
 
 
