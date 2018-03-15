@@ -27,10 +27,10 @@ class Clean_CSV():
         'virginia', 'washington', 'west virginia', 'wisconsin', 'wyoming']
         #probably need an outer loop where I search through the day values and then increment by one. 
         #or do a search by state and day where I increment the day by one and cut it off at the max value?
-        with open("final_data.csv", "w") as csv_file:
+        with open("final_data.csv", "a") as csv_file:
             csv_writer = writer(csv_file)
-            csv_writer.writerow(["day", "state", "avg"])
-            day = 1
+            # csv_writer.writerow(["day", "state", "avg"])
+            day = 2
             for state in states:
                 state_info = self.data.loc[self.data['state'] == state.title()]
                 # state_info = self.data[(self.data['state']== state.title()) & (self.data['day']== 1)]
@@ -43,13 +43,7 @@ class Clean_CSV():
                 if math.isnan(avg) != True:
                     csv_writer.writerow([day, state, avg])
 
-            # print(state_info['sentiment'].mean())
-            # input()
-            # test = self.data.loc[self.data['state'] == 'Texas']
-
-        # print(test['sentiment'].mean())
 
 
 csv = Clean_CSV()
-# csv.test()
 csv.new_csv()
