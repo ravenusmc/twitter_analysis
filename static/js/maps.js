@@ -11,7 +11,16 @@ function createMap(){
 
         d3.csv("/my/data/endpoint", function(data) {
 
-        console.log(data);
+          // console.log(data);
+
+        for (var i = 1; i < data.length; i++){
+
+          if (data[i].day != 2){
+            console.log(data[i].state + data[i].avg + ' ' + data[i].day)
+          }  
+        }
+
+        
 
         var width = 800;
         var height = 800;
