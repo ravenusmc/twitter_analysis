@@ -1,7 +1,7 @@
 //The code in this file will be for the maps.html file and will mainly contain a lot 
 //of the D3.JS for creating the maps. 
 
-function get_range() {
+function get_day() {
   value = document.getElementById('tickmarks').value;
   console.log(value);
 }
@@ -11,16 +11,28 @@ function createMap(){
 
         d3.csv("/my/data/endpoint", function(data) {
 
-          // console.log(data);
-
+        //Creating an array to refine my data, by the day, in the loop below. It will eventually become 
+        //an array of objects. 
+        data_sorted = [];
+        
+        //This loop will sort the data by the day that the user selects and build the map off
+        //of that data. 
         for (var i = 1; i < data.length; i++){
 
-          if (data[i].day != 2){
-            console.log(data[i].state + data[i].avg + ' ' + data[i].day)
-          }  
+            if (data[i].day == 2){
+                state = data[i].state;
+                avg = data[i].avg;
+                //This object will be placed into the array that was created above
+                data_obj = {}
+                data_obj.state = state;
+                data_obj.avg = avg;
+                data_sorted.push(data_obj);
+            }  
+
         }
 
-        
+        console.log(data_sorted);
+
 
         var width = 800;
         var height = 800;
