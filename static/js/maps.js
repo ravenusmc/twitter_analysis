@@ -2,11 +2,12 @@
 //of the D3.JS for creating the maps. 
 
 function get_day() {
-  value = document.getElementById('tickmarks').value;
-  console.log(value);
+    var option_box = document.getElementById("option_box");
+    var day = Number(option_box.options[option_box.selectedIndex].value);
+    createMap(day);
 }
 
-function createMap(){
+function createMap(day){
 
 
         d3.csv("/my/data/endpoint", function(data) {
@@ -19,7 +20,7 @@ function createMap(){
         //of that data. 
         for (var i = 1; i < data.length; i++){
 
-            if (data[i].day == 2){
+            if (data[i].day == day){
                 state = data[i].state;
                 avg = data[i].avg;
                 //This object will be placed into the array that was created above
@@ -30,8 +31,6 @@ function createMap(){
             }  
 
         }
-
-        console.log(data_sorted);
 
 
         var width = 800;
@@ -46,7 +45,7 @@ function createMap(){
         var path = d3.geo.path().projection(projection);
 
         //Setting up basic look of the map
-        d3.json("/json",function(data) {
+        d3.json("/json", function(data) {
           svg.append("path")
             .datum(data)
             .attr('d',path)
@@ -60,19 +59,19 @@ function createMap(){
 
         //Set input domain for color scale
         color.domain([
-            d3.min(data, function(d) { return d['avg']; }),
-            d3.max(data, function(d) { return d['avg']; })
+            d3.min(data_sorted, function(d) { return d['avg']; }),
+            d3.max(data_sorted, function(d) { return d['avg']; })
         ]);
 
         //I have to use a geoJSON file to match up the state name with its geographical location
         d3.json("/json", function(json) {
             //Merge the data and GeoJSON
             //Loop through once for each data value
-            for (var i = 0; i < data.length; i++) {
+            for (var i = 0; i < data_sorted.length; i++) {
                 //Grab state name
-                var dataState = data[i].state;
+                var dataState = data_sorted[i].state;
                 //Grab data value, and convert from string to float
-                var dataValue = parseFloat(data[i]['avg']);
+                var dataValue = parseFloat(data_sorted[i]['avg']);
                 //Find the corresponding state inside the GeoJSON
                 for (var j = 0; j < json.features.length; j++) {
                     var jsonState = json.features[j].properties.name;
@@ -110,4 +109,4 @@ function createMap(){
     });
 }
 
-createMap()
+// createMap()
