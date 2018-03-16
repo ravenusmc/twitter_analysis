@@ -2,13 +2,14 @@
 //of the D3.JS for creating the maps. 
 
 function get_day() {
+
     var option_box = document.getElementById("option_box");
     var day = Number(option_box.options[option_box.selectedIndex].value);
+    d3.select("svg").remove();
     createMap(day);
 }
 
 function createMap(day){
-
 
         d3.csv("/my/data/endpoint", function(data) {
 
@@ -108,5 +109,3 @@ function createMap(day){
         })
     });
 }
-
-// createMap()
