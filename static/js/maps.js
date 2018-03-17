@@ -33,6 +33,8 @@ function createMap(day){
 
         }
 
+        console.log(data_sorted);
+
 
         var width = 800;
         var height = 800;
