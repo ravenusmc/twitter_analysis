@@ -30,7 +30,7 @@ class Clean_CSV():
         with open("final_data.csv", "a") as csv_file:
             csv_writer = writer(csv_file)
             # csv_writer.writerow(["day", "state", "avg"])
-            day = 4
+            day = 5
             for state in states:
                 state_info = self.data.loc[self.data['state'] == state.title()]
                 # state_info = self.data[(self.data['state']== state.title()) & (self.data['day']== 1)]
