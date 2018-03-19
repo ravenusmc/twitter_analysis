@@ -13,9 +13,6 @@ class Clean_CSV():
     def __init__(self):
         self.data = pd.read_csv('sentiment_data.csv')
 
-    def test(self):
-        print(self.data.head())
-
     #This method will be building the new CSV that will have the mean's of sentiment values by state.
     def new_csv(self):
         states = ['alabama', 'alaska','arizona','arkansas', 'california', 'colorado', 'connecticut',
@@ -30,7 +27,7 @@ class Clean_CSV():
         with open("final_data.csv", "a") as csv_file:
             csv_writer = writer(csv_file)
             # csv_writer.writerow(["day", "state", "avg"])
-            day = 5
+            day = 6
             for state in states:
                 state_info = self.data.loc[self.data['state'] == state.title()]
                 # state_info = self.data[(self.data['state']== state.title()) & (self.data['day']== 1)]
@@ -38,12 +35,12 @@ class Clean_CSV():
                 try:
                     state = state_info.iloc[0][1]
                 except IndexError:
-                    print('Error')
+                    print('Error, Program will continue running')
                 avg = state_info['sentiment'].mean()
                 if math.isnan(avg) != True:
                     csv_writer.writerow([day, state, avg])
 
 
 
-csv = Clean_CSV()
-csv.new_csv()
+# csv = Clean_CSV()
+# csv.new_csv()

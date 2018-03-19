@@ -23,7 +23,7 @@ This project is a proof of concept. Its goal is to see if something like this wo
 3. Pandas-0.18.1
 4. Numpy-1.11.0
 5. MySQL-5.6.26
-6. D3.JS-3.5
+6. D3.JS
 7. TextBlob
 
 ### Operation
