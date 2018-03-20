@@ -78,6 +78,8 @@ Thus, except for the last group, tweets five and six, text blog gave back the sa
 However, examining the tweets further, tweet five I would say is almost a negative tweet against Trump. Yet, it has a score of 0.0 and the cleaned version of 0.25. Tweet four is also what I consider a negative tweet against Trump and it has a score of 0.5. Thus, Text blog, in my case, does not seem 100% accurate. However, getting a bunch of tweets from one state, analysing them I hope to get a better picture of that state. Much like flipping a coin a trillion times you will eventually get 50% of the time heads and the other 50% tails. 
 However, in the end, this project was a proof of concept and I think it worked out really well. 
 
+One final thing, the data collection, which is Day 1, started March 14th, 2018. The data collection is usually for 2000 tweets per day. 
+
 
 # Preview
 
