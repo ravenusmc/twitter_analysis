@@ -1,7 +1,547 @@
 day,state,sentiment
-
-
-
-
-
-
+7,Mississippi,0.0
+7,Pennsylvania,0.0
+7,Alabama,-0.4444444444444444
+7,Texas,0.0
+7,Washington,0.0
+7,Indiana,0.0
+7,Washington,0.05000000000000002
+7,Louisiana,0.05
+7,Minnesota,0.0
+7,Florida,0.5
+7,California,0.1875
+7,Washington,0.2
+7,Colorado,-0.2212121212121212
+7,Washington,0.0
+7,Colorado,0.0
+7,Massachusetts,0.175
+7,Massachusetts,0.4
+7,Oklahoma,0.0
+7,Missouri,0.2
+7,Iowa,0.175
+7,Ohio,0.5
+7,California,0.25
+7,Delaware,0.0
+7,Washington,0.0
+7,Kansas,0.0
+7,Illinois,0.175
+7,California,0.0
+7,Florida,0.0
+7,Florida,0.0
+7,New York,0.13636363636363635
+7,Virginia,-0.25
+7,Ohio,0.5
+7,Georgia,0.0
+7,Massachusetts,0.0
+7,Washington,0.0
+7,New York,0.0
+7,Louisiana,-0.4
+7,Louisiana,-0.4
+7,Colorado,0.0
+7,California,0.7
+7,Washington,0.0
+7,North Dakota,0.0
+7,North Dakota,0.175
+7,Texas,0.0
+7,Virginia,0.0
+7,Arkansas,0.0
+7,Texas,0.0
+7,North Dakota,0.4000000000000001
+7,Pennsylvania,0.0
+7,Oklahoma,0.0
+7,Wisconsin,0.0
+7,North Carolina,0.0
+7,Alabama,0.10000000000000002
+7,New Hampshire,0.0
+7,Oregon,0.0
+7,Alabama,0.0
+7,California,-0.22499999999999998
+7,North Carolina,0.0
+7,Oregon,0.0
+7,Pennsylvania,-0.07142857142857142
+7,Texas,0.09
+7,California,0.0
+7,California,0.0
+7,Florida,-0.7
+7,Colorado,0.2
+7,North Carolina,0.1
+7,California,0.5
+7,Washington,0.11818181818181818
+7,Florida,0.3833333333333333
+7,New York,0.0
+7,Indiana,0.0
+7,Missouri,-0.4
+7,New York,0.0
+7,Louisiana,0.0
+7,Indiana,0.6
+7,Kentucky,0.0
+7,New York,0.0
+7,Indiana,0.0
+7,New York,0.0
+7,Oregon,0.0
+7,Massachusetts,0.0
+7,Ohio,0.0
+7,Florida,0.0
+7,Missouri,-0.25
+7,North Dakota,-0.07777777777777779
+7,Ohio,0.0
+7,Arizona,0.0
+7,Texas,-0.875
+7,New York,0.0
+7,California,0.0
+7,Florida,-0.29999999999999993
+7,Georgia,-0.0625
+7,Florida,0.0
+7,Iowa,1.0
+7,Florida,0.0
+7,Florida,0.0
+7,Washington,0.10000000000000002
+7,Pennsylvania,0.34375
+7,Oklahoma,-0.13333333333333333
+7,Virginia,0.2
+7,Arkansas,0.0
+7,Massachusetts,-0.024999999999999994
+7,Wisconsin,-0.09375
+7,California,0.0
+7,Texas,-0.1875
+7,Arkansas,0.0
+7,Oregon,0.25
+7,Illinois,0.175
+7,North Carolina,0.1340909090909091
+7,Kansas,0.625
+7,Illinois,0.0
+7,Indiana,-0.5
+7,Ohio,0.0
+7,California,0.0
+7,Georgia,0.0
+7,New York,0.175
+7,Tennessee,0.175
+7,Missouri,0.2
+7,Ohio,0.0
+7,Iowa,-0.5
+7,Alaska,0.0
+7,New York,0.0
+7,New York,0.0
+7,Kansas,0.08249999999999999
+7,California,-0.1
+7,Wisconsin,-0.2
+7,Indiana,-0.06999999999999999
+7,Pennsylvania,-0.390625
+7,Washington,0.0
+7,Maryland,0.175
+7,Alaska,0.0
+7,Nebraska,-0.25
+7,Indiana,0.0
+7,Kansas,0.5
+7,North Carolina,0.4
+7,Massachusetts,0.0
+7,Washington,-0.05
+7,North Carolina,-0.75
+7,Colorado,-0.35714285714285715
+7,Alabama,0.14999999999999997
+7,Minnesota,-0.5
+7,New York,0.0
+7,Missouri,0.0
+7,North Dakota,-0.2135653409090909
+7,North Carolina,0.55
+7,New Hampshire,0.0
+7,Oklahoma,-0.05
+7,Massachusetts,0.0
+7,Texas,1.0
+7,California,0.15
+7,California,0.0
+7,Virginia,0.25
+7,New York,0.06818181818181818
+7,California,0.2521428571428571
+7,Arizona,0.375
+7,Illinois,0.0
+7,Ohio,0.0
+7,California,0.175
+7,Minnesota,-0.25
+7,Florida,0.625
+7,Indiana,0.0
+7,Washington,0.2
+7,Oklahoma,0.0
+7,Ohio,0.3333333333333333
+7,Oregon,0.0
+7,Virginia,0.6000000000000001
+7,Washington,0.0
+7,Colorado,0.175
+7,Virginia,0.0
+7,California,0.3333333333333333
+7,Massachusetts,-0.06666666666666667
+7,Florida,0.0
+7,Washington,0.18333333333333335
+7,Idaho,-0.4393939393939394
+7,Colorado,0.0
+7,Florida,0.0
+7,Alabama,0.05000000000000002
+7,Oregon,0.35
+7,Indiana,-0.5
+7,Washington,0.175
+7,California,0.2
+7,Delaware,-0.12840909090909092
+7,North Dakota,0.5
+7,Washington,0.0
+7,California,0.0
+7,Colorado,0.0
+7,North Dakota,0.09999999999999999
+7,Texas,-0.5
+7,New York,0.8
+7,Iowa,-0.05
+7,Illinois,0.0
+7,California,-0.5
+7,Florida,0.0
+7,New Jersey,0.0
+7,New Jersey,0.0
+7,Florida,0.625
+7,Florida,0.175
+7,North Carolina,-0.1
+7,Nevada,-0.2
+7,Massachusetts,0.35
+7,Indiana,0.0
+7,Texas,0.175
+7,Florida,0.0
+7,Michigan,0.0
+7,Minnesota,0.13636363636363635
+7,Indiana,-0.19444444444444445
+7,Florida,0.11727272727272726
+7,Texas,0.10000000000000002
+7,Indiana,0.0
+7,Delaware,0.175
+7,California,0.0
+7,California,0.0
+7,Utah,0.09
+7,Delaware,0.0
+7,Delaware,0.0
+7,Indiana,0.0
+7,Wisconsin,-0.5
+7,Illinois,0.0
+7,Kansas,0.4
+7,Washington,-0.25
+7,Maine,0.0
+7,Washington,0.0
+7,Washington,0.0
+7,Texas,0.0022222222222222088
+7,North Dakota,0.4
+7,Texas,0.0
+7,Texas,0.0
+7,Washington,0.0
+7,Alabama,0.15
+7,Illinois,0.25
+7,Pennsylvania,-0.5
+7,Michigan,0.0
+7,California,1.0
+7,Indiana,0.125
+7,Minnesota,0.3055555555555556
+7,New York,0.0
+7,Nevada,0.175
+7,Tennessee,0.125
+7,New Jersey,-0.15555555555555559
+7,Alabama,0.0
+7,North Carolina,0.175
+7,Virginia,-0.5
+7,New York,0.5
+7,Pennsylvania,0.0
+7,California,0.0
+7,North Dakota,0.175
+7,Arizona,0.0
+7,Texas,0.0
+7,Texas,0.0
+7,New York,0.0
+7,Mississippi,0.175
+7,Florida,-0.25
+7,Florida,0.0022222222222222088
+7,Illinois,0.19166666666666665
+7,Arizona,-0.1875
+7,Indiana,0.0
+7,Arizona,0.1875
+7,Washington,0.15000000000000002
+7,Minnesota,0.175
+7,Oklahoma,-0.5
+7,Illinois,0.05000000000000002
+7,Virginia,0.3333333333333333
+7,Arizona,0.4000000000000001
+7,Maryland,0.175
+7,Illinois,-0.15000000000000002
+7,Massachusetts,-0.16666666666666666
+7,Florida,0.0
+7,Ohio,0.0
+7,Minnesota,0.15000000000000002
+7,California,-0.5
+7,North Dakota,0.0
+7,Texas,0.0
+7,New York,0.09765625000000003
+7,Minnesota,0.0
+7,Florida,0.25
+7,Indiana,0.0
+7,North Carolina,-0.4444444444444444
+7,Connecticut,0.4000000000000001
+7,Iowa,0.0
+7,Nebraska,0.05000000000000002
+7,Arkansas,0.25
+7,Oklahoma,-0.07777777777777779
+7,Washington,0.2285714285714286
+7,California,0.0
+7,Florida,0.0
+7,Florida,0.0
+7,Arkansas,0.0
+7,Iowa,0.25
+7,Louisiana,0.4
+7,Nebraska,0.0
+7,New York,0.07619047619047621
+7,Colorado,0.0
+7,New York,0.18333333333333335
+7,Washington,0.09
+7,California,0.25
+7,Kansas,0.13636363636363635
+7,Indiana,0.7
+7,Colorado,-0.6999999999999998
+7,Georgia,0.35
+7,California,0.275
+7,Florida,0.11818181818181818
+7,Colorado,-0.078125
+7,North Dakota,0.05
+7,Ohio,-0.2
+7,Alabama,0.0
+7,Maryland,0.0
+7,Missouri,0.0
+7,Maine,0.0
+7,Florida,0.13636363636363635
+7,Kentucky,0.05
+7,Nebraska,0.0
+7,California,-0.024999999999999994
+7,Georgia,0.0
+7,Tennessee,0.39285714285714285
+7,New York,0.0
+7,Virginia,0.0
+7,Pennsylvania,0.0
+7,Pennsylvania,0.0
+7,Virginia,0.175
+7,Massachusetts,-0.5214285714285714
+7,Pennsylvania,-0.07142857142857142
+7,Michigan,-0.05
+7,California,0.0
+7,Alabama,0.0
+7,New York,0.0
+7,Pennsylvania,0.0
+7,Tennessee,0.09
+7,California,0.0
+7,California,0.175
+7,Alabama,0.0
+7,Alabama,0.0
+7,Washington,0.0
+7,Iowa,0.0
+7,Indiana,-0.16666666666666666
+7,Washington,0.0
+7,Pennsylvania,0.2785714285714286
+7,Alabama,0.625
+7,North Dakota,0.0
+7,Utah,0.05000000000000002
+7,Michigan,0.13636363636363635
+7,Indiana,0.5
+7,Michigan,0.0
+7,Michigan,0.0
+7,Tennessee,0.0
+7,Alabama,0.0
+7,Georgia,0.0
+7,Washington,0.0
+7,Washington,0.0
+7,New York,-0.19166666666666665
+7,California,0.0
+7,Texas,-0.4
+7,Michigan,0.1787878787878788
+7,New York,0.0
+7,Nevada,0.0
+7,Alabama,0.05000000000000002
+7,Kentucky,0.13636363636363635
+7,Arizona,0.0
+7,California,0.05000000000000002
+7,Florida,0.125
+7,Missouri,0.06818181818181818
+7,California,0.8
+7,New York,0.0
+7,Florida,0.0
+7,Virginia,0.3181818181818182
+7,Virginia,0.3181818181818182
+7,New York,0.2
+7,Colorado,0.175
+7,Iowa,0.0
+7,New Hampshire,1.0
+7,Indiana,0.0
+7,Georgia,0.0
+7,Michigan,0.2
+7,Washington,-0.625
+7,Idaho,0.0
+7,New York,0.0
+7,California,0.09
+7,Ohio,0.13636363636363635
+7,Vermont,0.04999999999999999
+7,New York,-0.16666666666666666
+7,Maryland,0.0
+7,Florida,0.0
+7,Florida,0.0
+7,Oregon,0.0
+7,Indiana,0.04545454545454545
+7,Indiana,0.04545454545454545
+7,Virginia,-0.5571428571428572
+7,New York,-0.1
+7,Texas,0.13636363636363635
+7,Texas,0.0
+7,California,-0.175
+7,Oklahoma,0.4000000000000001
+7,Indiana,-0.175
+7,Indiana,0.175
+7,Texas,0.0
+7,Virginia,0.0
+7,California,-0.5
+7,Wisconsin,0.175
+7,Massachusetts,0.2
+7,Arkansas,0.09765625000000003
+7,Massachusetts,0.06
+7,Arizona,0.1875
+7,California,-0.5
+7,Missouri,0.0
+7,Hawaii,0.0
+7,New Mexico,0.0
+7,New York,0.0
+7,Texas,0.5
+7,Florida,0.0
+7,Arizona,0.175
+7,Pennsylvania,-0.1
+7,Oregon,-0.6
+7,Illinois,0.175
+7,Washington,0.0
+7,Maine,0.0
+7,Pennsylvania,0.175
+7,Oklahoma,0.35
+7,Oregon,0.08333333333333334
+7,Oregon,0.08333333333333334
+7,New York,0.44999999999999996
+7,Washington,0.5
+7,Ohio,0.0
+7,Delaware,0.0
+7,Massachusetts,0.0
+7,California,0.2
+7,Nevada,0.0
+7,Washington,0.8
+7,Georgia,0.06818181818181818
+7,Iowa,0.175
+7,California,0.0
+7,Washington,0.0
+7,Washington,0.2857142857142857
+7,Michigan,0.0
+7,California,0.0
+7,Alabama,0.175
+7,Colorado,0.0
+7,Maryland,0.0
+7,Arkansas,0.10000000000000002
+7,Iowa,0.0
+7,Kansas,-0.35
+7,Florida,0.0
+7,California,-0.5
+7,Nebraska,0.0
+7,Maryland,0.0
+7,California,0.5
+7,Illinois,-0.4444444444444444
+7,Pennsylvania,0.5
+7,Missouri,0.0
+7,Michigan,0.9
+7,Louisiana,0.0
+7,Oregon,0.0
+7,Florida,0.0
+7,New York,0.8
+7,Connecticut,0.0
+7,Illinois,-0.07500000000000001
+7,South Carolina,0.13
+7,Michigan,-0.4
+7,Texas,0.2
+7,Wyoming,0.0
+7,Florida,-0.5
+7,Oklahoma,0.0
+7,California,0.0
+7,Mississippi,0.0
+7,Indiana,0.25
+7,Indiana,0.25
+7,Alabama,0.6
+7,Texas,0.0
+7,Indiana,-0.5
+7,California,0.25
+7,New York,-0.5
+7,New York,0.0
+7,California,0.6
+7,New York,0.0
+7,Indiana,0.0
+7,New York,0.0
+7,Washington,0.0
+7,New Mexico,0.175
+7,Arizona,0.0
+7,Delaware,0.0
+7,Massachusetts,-0.2
+7,California,0.0
+7,Washington,0.0
+7,Washington,0.0
+7,Florida,0.0
+7,Texas,0.06818181818181818
+7,California,0.0
+7,Colorado,-0.10833333333333334
+7,Florida,0.5
+7,North Carolina,0.0
+7,Wisconsin,0.0
+7,Florida,0.0
+7,Virginia,0.13636363636363635
+7,Michigan,0.175
+7,California,0.0
+7,Washington,0.175
+7,California,0.0
+7,Wisconsin,0.05000000000000001
+7,North Dakota,0.0
+7,Pennsylvania,0.175
+7,Texas,0.0
+7,Colorado,0.0
+7,Indiana,0.0
+7,New Jersey,-0.5
+7,Ohio,0.0
+7,Washington,0.0
+7,Florida,0.5
+7,Virginia,0.13636363636363635
+7,Pennsylvania,0.175
+7,Ohio,0.0
+7,Michigan,0.0
+7,Oregon,0.0022222222222222088
+7,Utah,0.0
+7,Missouri,0.5
+7,California,0.175
+7,New York,0.12083333333333335
+7,Pennsylvania,0.07499999999999998
+7,California,0.0
+7,Michigan,0.0
+7,Pennsylvania,0.175
+7,Indiana,0.2857142857142857
+7,California,0.0
+7,Arizona,0.0
+7,Michigan,1.0
+7,New Jersey,0.375
+7,Michigan,0.2833333333333334
+7,Washington,-0.025
+7,Ohio,0.0
+7,Maryland,0.25
+7,Illinois,-0.5
+7,Indiana,0.0
+7,Georgia,0.0
+7,Alabama,0.0
+7,Alabama,0.0
+7,Michigan,0.175
+7,California,0.0
+7,Missouri,-0.25
+7,California,0.175
+7,California,0.09
+7,Indiana,-0.1
+7,Virginia,-0.5
+7,Wisconsin,-0.16666666666666666
+7,Wisconsin,-0.16666666666666666
+7,Ohio,-0.1
+7,Ohio,-0.1
+7,Georgia,0.0
+7,California,0.0
+7,Illinois,0.175
