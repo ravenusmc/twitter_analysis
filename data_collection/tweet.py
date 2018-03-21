@@ -34,7 +34,7 @@ class Tweets():
             csv_writer.writerow(["day", "state", "sentiment"])
             for tweet in self.iterator:
                 if count != 2000:
-                    day = 7
+                    day = 8
                     #Getting the text of the tweet.
                     #Using exceptions to catch when the tweets have errors. 
                     try:

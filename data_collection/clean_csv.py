@@ -33,7 +33,7 @@ class Clean_CSV():
             #This variable will hold the current day of the data. I have to manually increment it by one 
             #for each day that I run this program. If this was a full fledge program I would use a datetime
             #stamp and have it increase by one each day. 
-            day = 7
+            day = 8
             #Loop to go through all of the states above looking for the mean on each state. 
             for state in states:
                 state_info = self.data.loc[self.data['state'] == state.title()]
