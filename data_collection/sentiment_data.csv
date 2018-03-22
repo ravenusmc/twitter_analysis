@@ -1,482 +1,553 @@
 day,state,sentiment
-8,Michigan,0.0
-8,Virginia,0.0
-8,New York,0.0
-8,Washington,0.05
-8,Colorado,0.1
-8,Colorado,0.13636363636363635
-8,California,0.0
-8,California,0.0
-8,New York,0.17222222222222222
-8,Wisconsin,0.03333333333333333
-8,Ohio,0.0
-8,Oregon,0.0
-8,Virginia,0.0
-8,Michigan,-0.4
-8,North Carolina,0.0
-8,Oklahoma,0.0
-8,Florida,0.9
-8,New Jersey,0.1
-8,Ohio,0.19999999999999998
-8,Connecticut,0.0
-8,Iowa,-0.5035714285714286
-8,Michigan,0.5
-8,Nevada,0.0
-8,Alabama,0.0
-8,Colorado,0.0
-8,Colorado,0.0
-8,New Jersey,0.35
-8,Florida,0.0
-8,New York,0.0
-8,Indiana,0.2
-8,South Carolina,0.0
-8,Iowa,0.0
-8,Kansas,0.0
-8,Washington,0.5
-8,Alaska,0.55
-8,Colorado,0.0
-8,Iowa,0.19999999999999998
-8,New York,0.0
-8,Ohio,0.0
-8,Colorado,0.0
-8,North Carolina,0.35
-8,North Dakota,0.0
-8,Alabama,0.0
-8,Florida,0.0
-8,Indiana,-0.4
-8,Alabama,-0.12
-8,Texas,0.2
-8,Illinois,0.9
-8,Rhode Island,0.275
-8,Louisiana,0.13636363636363635
-8,Pennsylvania,-0.09999999999999992
-8,Florida,-0.1
-8,Tennessee,0.21428571428571427
-8,Kentucky,0.4285714285714286
-8,Virginia,0.025000000000000005
-8,California,0.375
-8,Idaho,0.0
-8,California,0.0
-8,Oregon,0.0
-8,New York,0.0
-8,Florida,-0.2
-8,California,0.0
-8,California,-0.3125
-8,Nebraska,0.4166666666666667
-8,Colorado,0.0
-8,California,-0.75
-8,Kansas,-0.1
-8,Oklahoma,0.4581818181818182
-8,Texas,0.0
-8,North Dakota,-0.05000000000000001
-8,New Jersey,0.475
-8,Arizona,0.0
-8,Nebraska,0.0
-8,Michigan,0.0
-8,Alaska,-0.125
-8,Michigan,0.1
-8,Hawaii,-1.0
-8,Indiana,0.0
-8,Ohio,0.6
-8,Tennessee,-0.15
-8,New Mexico,0.0
-8,Utah,0.0
-8,Nebraska,0.0
-8,California,0.0
-8,Texas,-0.12
-8,Michigan,0.0
-8,South Carolina,0.0
-8,Oklahoma,0.11818181818181818
-8,New Jersey,0.0
-8,South Carolina,0.0
-8,Washington,-0.1875
-8,New York,-0.041666666666666664
-8,Wisconsin,0.0
-8,California,0.0
-8,Iowa,-0.125
-8,Florida,-0.25
-8,Iowa,0.0
-8,Alabama,0.0
-8,North Dakota,0.13636363636363635
-8,Ohio,-0.20833333333333334
-8,Indiana,0.0
-8,New York,0.65
-8,Ohio,0.0
-8,Florida,0.0
-8,North Dakota,-0.024999999999999994
-8,South Carolina,0.0
-8,Alabama,0.2
-8,New Jersey,0.0
-8,Florida,-0.25
-8,California,-0.3
-8,Massachusetts,0.08333333333333334
-8,New York,0.25
-8,Washington,-0.12000000000000001
-8,Michigan,-0.3
-8,Oregon,-1.0
-8,Iowa,-0.05
-8,Massachusetts,0.8
-8,Oklahoma,0.15
-8,Ohio,-0.4666666666666666
-8,Ohio,-0.07142857142857142
-8,Missouri,0.0
-8,North Carolina,0.0
-8,Ohio,0.04999999999999996
-8,Alabama,-0.19999999999999998
-8,New York,0.0
-8,New York,0.0
-8,Iowa,0.5
-8,Tennessee,0.0
-8,Florida,0.0
-8,North Carolina,-0.15
-8,Ohio,0.3333333333333333
-8,Connecticut,0.5
-8,Ohio,0.11666666666666668
-8,Louisiana,0.2
-8,Colorado,0.0
-8,Washington,-0.125
-8,Connecticut,0.35
-8,Kentucky,0.5
-8,Georgia,0.0
-8,California,0.5
-8,North Dakota,0.04545454545454545
-8,Washington,0.5
-8,Washington,0.5
-8,Massachusetts,-0.4
-8,Washington,0.5
-8,Texas,0.03409090909090909
-8,Florida,0.5
-8,Washington,0.0
-8,Georgia,0.0
-8,Kentucky,0.3125
-8,Indiana,0.13333333333333333
-8,Pennsylvania,0.125
-8,Nevada,0.2333333333333333
-8,Indiana,0.7
-8,Texas,-0.6999999999999998
-8,Alaska,0.0
-8,Nebraska,0.0
-8,Oregon,0.0
-8,New York,0.0
-8,Maine,0.0
-8,Oklahoma,0.175
-8,Florida,0.05000000000000002
-8,Alabama,-0.05
-8,Virginia,0.5
-8,Idaho,0.0
-8,Virginia,0.0
-8,Ohio,0.0
-8,New York,0.0
-8,California,0.0
-8,Florida,0.0
-8,Michigan,0.0
-8,Maine,-0.1625
-8,Oregon,-0.19166666666666665
-8,Alabama,1.0
-8,Michigan,0.14285714285714285
-8,Connecticut,0.0
-8,California,0.0
-8,California,0.0
-8,California,0.5
-8,Washington,0.4
-8,Colorado,0.0
-8,Texas,0.17857142857142858
-8,Colorado,0.5
-8,Maine,0.0
-8,Florida,0.5
-8,Colorado,-0.19444444444444448
-8,Iowa,0.0
-8,New York,-0.12000000000000001
-8,Washington,0.0
-8,New Jersey,0.0
-8,Indiana,-0.1875
-8,North Dakota,0.175
-8,Connecticut,0.0
-8,Alabama,0.1
-8,Virginia,0.2
-8,New York,0.0
-8,Ohio,0.0
-8,Michigan,0.0
-8,New York,0.24999999999999997
-8,Florida,0.0
-8,New York,0.35
-8,Texas,-0.0375
-8,Washington,0.0
-8,California,0.0
-8,New Jersey,0.0
-8,Michigan,0.0
-8,New York,0.0
-8,California,0.6
-8,California,-0.5
-8,Louisiana,0.1
-8,Florida,-0.125
-8,California,0.0
-8,Georgia,0.0
-8,Alabama,0.4
-8,North Dakota,0.0
-8,New York,0.0
-8,Michigan,-0.125
-8,Kansas,0.0
-8,New York,0.0
-8,Iowa,0.5
-8,Maine,0.20035714285714284
-8,Washington,0.0
-8,New York,0.1375
-8,New Mexico,0.0
-8,California,-0.06666666666666667
-8,California,0.5
-8,Washington,0.0
-8,Ohio,0.0
-8,Washington,0.0
-8,North Carolina,0.0
-8,Utah,-0.2833333333333333
-8,New York,0.25
-8,Maryland,0.0
-8,Indiana,0.0
-8,Arkansas,0.175
-8,Virginia,-0.5
-8,New York,-0.025
-8,Iowa,0.5
-8,New Jersey,0.125
-8,Connecticut,0.0
-8,Connecticut,0.0
-8,Kentucky,0.0
-8,New York,0.0
-8,Connecticut,0.0
-8,North Dakota,0.25
-8,Colorado,0.10000000000000002
-8,Colorado,0.125
-8,Alabama,-0.075
-8,Washington,-0.125
-8,Iowa,-0.20555555555555557
-8,Illinois,0.0
-8,New York,-0.05
-8,Florida,-0.16666666666666666
-8,California,0.0
-8,Maryland,0.05
-8,Alabama,-0.6999999999999998
-8,California,0.0
-8,Georgia,-0.15625
-8,Florida,-0.525
-8,Pennsylvania,0.0
-8,Texas,0.0
-8,Colorado,0.2
-8,Connecticut,0.5
-8,Indiana,0.5
-8,North Dakota,0.8
-8,California,-1.0
-8,California,-0.6
-8,Oklahoma,-0.15000000000000002
-8,Arizona,0.0
-8,Washington,0.5
-8,Texas,0.0
-8,Texas,0.0
-8,Texas,-0.1
-8,Michigan,0.21428571428571427
-8,Illinois,0.125
-8,Florida,0.4
-8,Alabama,0.09999999999999996
-8,North Carolina,0.0
-8,New York,0.9
-8,Montana,0.175
-8,South Carolina,0.0
-8,Maryland,-1.0
-8,Washington,0.0
-8,Arizona,0.0
-8,Ohio,0.2
-8,California,0.4
-8,New York,0.4166666666666667
-8,Delaware,0.0
-8,Texas,0.0
-8,Kansas,0.07499999999999998
-8,California,0.0
-8,Oregon,0.2
-8,Utah,0.0
-8,Texas,0.35000000000000003
-8,Iowa,0.0
-8,Colorado,0.20909090909090908
-8,Ohio,1.0
-8,Louisiana,0.0
-8,California,0.0
-8,Indiana,0.25
-8,Michigan,0.0
-8,Florida,0.0
-8,Tennessee,0.0
-8,Ohio,0.0
-8,Iowa,-0.625
-8,Washington,0.0
-8,Texas,0.0
-8,Washington,0.13636363636363635
-8,Colorado,-0.425
-8,New York,0.0
-8,Alabama,0.0
-8,Colorado,-0.39999999999999997
-8,California,0.0
-8,Idaho,1.0
-8,Tennessee,-0.1
-8,Virginia,0.06666666666666665
-8,Washington,0.11666666666666665
-8,New York,0.175
-8,North Dakota,0.5
-8,California,0.0
-8,Tennessee,0.0
-8,North Dakota,0.0
-8,California,0.0
-8,Missouri,0.0
-8,New York,0.0
-8,Ohio,0.18
-8,New York,0.0
-8,Minnesota,0.25
-8,Arizona,-0.12
-8,California,0.0
-8,Texas,-0.6999999999999998
-8,California,0.0
-8,Texas,0.0
-8,Indiana,0.175
-8,California,-0.3
-8,Maryland,-0.6
-8,Louisiana,0.0
-8,Michigan,0.21428571428571427
-8,Michigan,0.2
-8,Ohio,0.8
-8,Texas,0.15625
-8,California,-0.2916666666666667
-8,Kansas,-0.5
-8,Massachusetts,-0.2
-8,Indiana,0.25
-8,Alabama,0.0
-8,Washington,0.4
-8,New York,0.0
-8,Texas,0.16818181818181818
-8,Florida,0.0
-8,Indiana,0.0
-8,California,-0.3333333333333333
-8,New Jersey,0.0
-8,Delaware,0.0
-8,Maine,-0.1875
-8,Michigan,0.0
-8,Florida,0.25
-8,Delaware,0.0
-8,California,-0.09999999999999999
-8,Michigan,-0.2
-8,Ohio,-1.0
-8,Michigan,-0.6
-8,New York,0.026666666666666675
-8,Texas,0.0
-8,New York,0.9
-8,Iowa,0.037500000000000006
-8,Indiana,0.0
-8,New York,0.6
-8,Georgia,0.0
-8,Michigan,0.0
-8,Pennsylvania,0.0
-8,California,0.0
-8,Arizona,0.35
-8,Utah,0.0
-8,New York,0.2
-8,California,0.0
-8,New Jersey,0.0
-8,Maine,0.0
-8,Alabama,0.0
-8,Maine,0.0
-8,South Carolina,0.0
-8,Texas,0.0
-8,Alabama,0.0
-8,New York,0.9765625
-8,New York,0.0
-8,Ohio,0.6
-8,Oklahoma,0.0
-8,Kansas,0.5249999999999999
-8,Hawaii,0.0
-8,Delaware,0.0
-8,Ohio,0.0
-8,Washington,0.2
-8,Florida,1.0
-8,California,0.0
-8,Massachusetts,0.0
-8,Minnesota,0.6083333333333333
-8,Michigan,0.0
-8,Oklahoma,0.625
-8,Massachusetts,0.25
-8,Indiana,-0.05
-8,Colorado,-0.03333333333333333
-8,New Jersey,0.0
-8,Alaska,-0.15185185185185188
-8,Arkansas,-0.3125
-8,Texas,0.3332589285714286
-8,Indiana,-0.19999999999999996
-8,Indiana,0.0
-8,New York,0.0
-8,Illinois,0.0
-8,Missouri,0.0
-8,Washington,0.0
-8,Colorado,-0.12000000000000001
-8,Kansas,0.0
-8,Hawaii,-0.3499999999999999
-8,Kansas,-0.12000000000000001
-8,New York,0.0
-8,New Jersey,0.0
-8,Minnesota,0.0
-8,California,0.5
-8,California,0.5
-8,Virginia,0.0
-8,Missouri,0.5
-8,North Dakota,-0.19166666666666665
-8,Washington,0.0
-8,Idaho,0.5
-8,Indiana,0.05
-8,Ohio,0.5
-8,Louisiana,-0.16666666666666666
-8,Ohio,-0.22499999999999998
-8,Oregon,0.0
-8,Colorado,-0.2
-8,California,0.0
-8,New York,0.0
-8,Colorado,0.0
-8,Washington,0.25
-8,New York,0.8
-8,Alaska,0.7
-8,Maine,0.0
-8,Georgia,0.0
-8,Michigan,0.0
-8,Alabama,0.3125
-8,New York,0.01785714285714285
-8,Oregon,-0.1
-8,Oregon,-0.1
-8,Texas,0.0
-8,Indiana,-0.01666666666666668
-8,North Carolina,5.551115123125783e-17
-8,Kentucky,0.2
-8,Texas,-0.037202380952380966
-8,Colorado,0.25
-8,Arkansas,0.0
-8,New York,0.0
-8,New York,0.2857142857142857
-8,New York,0.0
-8,Indiana,0.0
-8,Florida,-0.06666666666666667
-8,Colorado,0.05
-8,Montana,0.0
-8,Indiana,0.5
-8,New Hampshire,0.0
-8,New Hampshire,0.05
-8,North Carolina,-0.05
-8,Illinois,0.4
-8,New York,-0.12000000000000001
-8,New York,0.0
-8,California,0.5
-8,California,0.6
-8,Alabama,0.6000000000000001
-8,Texas,0.42500000000000004
-8,Florida,0.0
-8,Georgia,0.0
-8,Massachusetts,-0.3333333333333333
-8,California,0.17222222222222222
-8,Wisconsin,-0.4
-8,Kentucky,0.2
-8,New York,0.0
-8,Tennessee,-0.25
-8,Wisconsin,-0.4
-8,Michigan,0.0
-8,Florida,0.09999999999999996
-8,Florida,0.2
+9,California,-0.3
+9,California,0.1
+9,Washington,0.0
+9,California,0.0
+9,Georgia,0.35
+9,California,0.0
+9,Iowa,0.0
+9,Florida,0.16666666666666666
+9,Colorado,0.06818181818181818
+9,New York,-1.0
+9,Michigan,0.21212121212121213
+9,New York,0.0
+9,New York,0.0
+9,New York,0.13636363636363635
+9,Florida,0.2
+9,Michigan,0.0
+9,Ohio,0.0
+9,Kentucky,0.5
+9,Georgia,0.05
+9,Kentucky,0.0
+9,Florida,-0.125
+9,Hawaii,-0.6999999999999998
+9,Arizona,0.78125
+9,California,-0.033333333333333326
+9,Iowa,0.4
+9,Utah,0.45
+9,California,0.0
+9,California,0.3571428571428571
+9,Oregon,0.0
+9,Washington,1.0
+9,Indiana,-0.16666666666666666
+9,Washington,0.0
+9,Indiana,0.0
+9,Missouri,0.15
+9,Washington,0.125
+9,Texas,0.35714285714285715
+9,Michigan,0.2
+9,New York,0.0
+9,Oklahoma,-0.2
+9,Arizona,-0.325
+9,New York,-0.05
+9,Michigan,0.0
+9,Oregon,0.0
+9,South Carolina,0.4
+9,Ohio,0.0
+9,Washington,0.0
+9,Illinois,0.03333333333333333
+9,Ohio,0.0
+9,North Dakota,0.0
+9,North Carolina,0.36190476190476195
+9,California,0.0
+9,Massachusetts,0.0
+9,California,0.35
+9,Washington,0.4
+9,Michigan,0.5
+9,Indiana,0.0
+9,California,0.0
+9,Florida,0.033333333333333326
+9,Indiana,0.0
+9,Wisconsin,-0.05
+9,Kentucky,0.0
+9,Washington,0.25
+9,Florida,0.0
+9,Virginia,0.0
+9,Idaho,0.0
+9,Indiana,0.8
+9,Utah,0.0
+9,Michigan,0.25
+9,New York,0.5
+9,California,0.5
+9,Indiana,0.0
+9,Florida,0.3
+9,Florida,0.0
+9,New York,0.0
+9,Indiana,0.16
+9,New York,0.0
+9,Arizona,0.2
+9,New York,-0.3
+9,New York,0.0
+9,Texas,-0.3
+9,Georgia,0.0
+9,Washington,0.0
+9,Connecticut,0.0
+9,Michigan,0.0
+9,Washington,0.13636363636363635
+9,North Carolina,0.0
+9,New York,0.0
+9,California,0.0
+9,New Jersey,0.16666666666666666
+9,Colorado,0.0
+9,North Carolina,0.0
+9,Florida,0.0
+9,Indiana,0.5
+9,Illinois,0.0
+9,Florida,-0.04999999999999999
+9,Virginia,0.0
+9,Wisconsin,0.0
+9,Virginia,0.0
+9,Virginia,-0.1
+9,Vermont,0.0
+9,Connecticut,-0.25
+9,California,0.0
+9,Indiana,-0.09765625
+9,Hawaii,0.16
+9,Pennsylvania,0.0
+9,Texas,0.06818181818181818
+9,California,0.1
+9,Ohio,-0.4
+9,Ohio,0.2
+9,California,-0.2
+9,Oregon,-0.1
+9,Indiana,0.1
+9,Texas,0.1
+9,California,0.44999999999999996
+9,Washington,0.0
+9,New York,0.0
+9,California,0.0
+9,Kentucky,0.0
+9,Vermont,0.13333333333333333
+9,Kentucky,0.0
+9,New Jersey,0.0
+9,Montana,0.05000000000000001
+9,New York,-0.1875
+9,Tennessee,-0.16666666666666666
+9,California,0.2
+9,Kansas,0.0
+9,Oregon,0.0
+9,Texas,0.13636363636363635
+9,Texas,0.18148148148148147
+9,Kentucky,0.0
+9,Indiana,0.0
+9,Texas,-0.2897727272727273
+9,California,0.175
+9,Idaho,0.0
+9,South Dakota,0.0
+9,Oregon,0.19999999999999998
+9,Massachusetts,-0.5
+9,Indiana,-0.25
+9,Alabama,0.0
+9,Illinois,0.0
+9,North Carolina,0.0
+9,Kentucky,-0.3333333333333333
+9,Kentucky,-0.3333333333333333
+9,Alabama,-0.04090909090909091
+9,Hawaii,0.0
+9,Indiana,-0.07142857142857142
+9,Delaware,0.0
+9,New York,0.0
+9,Florida,-0.16666666666666666
+9,Illinois,0.10833333333333334
+9,Kentucky,0.3333333333333333
+9,Florida,0.0
+9,California,0.43333333333333335
+9,Mississippi,0.0
+9,New Jersey,0.10416666666666667
+9,Georgia,-0.8
+9,Indiana,0.06818181818181818
+9,Washington,-0.5
+9,Kentucky,0.022222222222222213
+9,New York,0.375
+9,California,0.0
+9,North Carolina,0.0
+9,Iowa,-0.16666666666666666
+9,Oregon,-0.2
+9,California,0.2
+9,Iowa,0.125
+9,Tennessee,0.0
+9,Texas,0.15
+9,Arkansas,-0.04090909090909091
+9,Michigan,0.0
+9,New Jersey,0.0
+9,Colorado,-0.05
+9,Colorado,0.5
+9,Louisiana,-0.5
+9,Texas,0.8
+9,Texas,0.125
+9,Ohio,0.13636363636363635
+9,New York,0.0
+9,Washington,-0.3888888888888889
+9,Nebraska,0.0
+9,Michigan,-0.45
+9,Louisiana,0.05
+9,Washington,1.0
+9,New York,0.0
+9,North Carolina,0.0
+9,Texas,0.05000000000000001
+9,New York,-0.26666666666666666
+9,Louisiana,0.05000000000000002
+9,Nebraska,0.1375
+9,California,0.3181818181818182
+9,New York,0.0
+9,California,0.0
+9,Florida,0.0
+9,Iowa,0.0
+9,Texas,0.0
+9,Indiana,0.2090909090909091
+9,California,-0.4518518518518519
+9,New York,0.8
+9,Texas,-0.1
+9,Texas,0.0
+9,New York,0.8
+9,Texas,0.8
+9,Texas,0.0
+9,Georgia,0.0
+9,Colorado,0.0
+9,Texas,0.13636363636363635
+9,Indiana,0.6
+9,Kentucky,0.08571428571428573
+9,Indiana,0.0
+9,Indiana,0.0
+9,South Dakota,0.0
+9,North Carolina,0.2619047619047619
+9,Washington,0.19318181818181818
+9,Florida,-0.25
+9,Texas,-0.1
+9,California,0.25
+9,Mississippi,0.5
+9,Texas,0.6
+9,New Jersey,0.26666666666666666
+9,New York,0.0
+9,Florida,0.0
+9,Colorado,0.0
+9,Arkansas,0.0
+9,Michigan,-0.1875
+9,Wisconsin,0.0
+9,New Jersey,-1.0
+9,Indiana,0.20000000000000004
+9,Texas,0.0
+9,Texas,0.0
+9,Washington,0.0
+9,New York,0.0
+9,Indiana,0.5
+9,New York,-0.1
+9,Michigan,0.0
+9,Kentucky,0.0
+9,Delaware,-0.1
+9,Texas,0.16
+9,Maryland,0.25
+9,California,0.0
+9,California,0.3
+9,Washington,-0.05
+9,Minnesota,-0.5
+9,New Hampshire,0.0
+9,Kentucky,0.0
+9,Oregon,-0.03333333333333334
+9,Texas,-0.625
+9,Pennsylvania,0.0
+9,South Carolina,-0.2897727272727273
+9,Michigan,0.0
+9,Colorado,0.2
+9,Oregon,-0.1
+9,Texas,-0.2
+9,Washington,0.0
+9,California,-0.1
+9,Indiana,0.0
+9,Connecticut,0.0
+9,Indiana,0.0
+9,Pennsylvania,-0.05
+9,New York,0.5
+9,Massachusetts,0.0
+9,Minnesota,0.0
+9,Washington,0.07878787878787878
+9,Wyoming,0.0
+9,Arkansas,-0.3185185185185185
+9,South Carolina,0.2
+9,California,0.25625
+9,Indiana,-0.3
+9,Louisiana,0.0
+9,Washington,0.0
+9,Colorado,0.016666666666666663
+9,Florida,0.39999999999999997
+9,Florida,0.0
+9,Illinois,0.0
+9,Washington,-0.05
+9,Ohio,0.15
+9,Kansas,0.0
+9,Massachusetts,0.5
+9,Pennsylvania,0.125
+9,Florida,0.0
+9,New York,0.0
+9,Washington,0.0
+9,Oregon,0.4000000000000001
+9,Kansas,0.5
+9,Missouri,-0.2
+9,Washington,0.0
+9,Oklahoma,0.0
+9,Nebraska,-0.1
+9,Ohio,-0.05
+9,New York,0.0
+9,Utah,0.0
+9,Washington,-0.049999999999999996
+9,New York,0.0
+9,Oklahoma,0.3333333333333333
+9,Washington,0.11666666666666665
+9,South Carolina,0.35
+9,North Carolina,0.0
+9,Montana,0.5
+9,Maine,-0.1
+9,California,-0.033333333333333326
+9,California,0.2
+9,Mississippi,0.125
+9,Montana,-0.2
+9,Texas,0.0
+9,New York,0.13636363636363635
+9,California,0.0
+9,Texas,0.2611111111111111
+9,Ohio,0.0
+9,Nevada,0.0
+9,Nevada,0.0
+9,Indiana,0.04999999999999999
+9,Tennessee,0.2
+9,Arkansas,0.0
+9,Florida,-0.15
+9,Illinois,0.13636363636363635
+9,North Carolina,-0.09999999999999999
+9,Georgia,0.25
+9,Delaware,-0.125
+9,Massachusetts,0.0
+9,Washington,0.5
+9,Virginia,0.0
+9,Oregon,0.5
+9,Florida,0.0
+9,Kansas,0.6
+9,Ohio,0.33
+9,Florida,0.0
+9,Florida,-0.25
+9,Ohio,0.0
+9,California,-0.06666666666666665
+9,California,-0.25
+9,Maryland,0.0
+9,Delaware,0.5
+9,California,-0.0875
+9,California,0.0
+9,Kansas,0.0
+9,Mississippi,-0.3
+9,Massachusetts,0.1901785714285714
+9,Texas,0.05000000000000002
+9,Wisconsin,-0.7999999999999999
+9,Delaware,-0.8
+9,New York,0.13666666666666666
+9,Kansas,0.0
+9,California,-0.35
+9,Pennsylvania,0.4
+9,Washington,-0.05
+9,California,0.0
+9,Oklahoma,0.0
+9,Oklahoma,0.0
+9,Ohio,-0.25
+9,Nevada,0.0
+9,Georgia,0.0
+9,Louisiana,0.0
+9,Georgia,0.5
+9,New York,0.0
+9,Indiana,-0.03333333333333333
+9,North Dakota,0.2785714285714286
+9,Texas,0.13333333333333336
+9,Texas,0.13333333333333336
+9,Texas,0.0
+9,Alabama,0.0
+9,North Carolina,0.21212121212121213
+9,Pennsylvania,0.0
+9,Indiana,0.1965909090909091
+9,Indiana,-0.5777777777777778
+9,California,0.0
+9,Louisiana,0.0
+9,Maryland,0.0
+9,Pennsylvania,0.0
+9,Arkansas,0.14285714285714285
+9,Georgia,0.25
+9,California,-0.2
+9,Texas,0.09375
+9,California,0.0
+9,Tennessee,0.0
+9,Tennessee,0.0
+9,North Dakota,0.0
+9,Indiana,0.0
+9,Kentucky,0.0
+9,Virginia,0.0
+9,Ohio,0.0
+9,Washington,0.2
+9,Washington,0.0
+9,Maine,-0.4
+9,Washington,0.0
+9,Washington,0.25
+9,Florida,0.05000000000000001
+9,Washington,0.0
+9,Washington,0.0
+9,North Dakota,0.0
+9,Washington,0.0
+9,Louisiana,0.0
+9,California,0.0
+9,Alabama,0.0
+9,Florida,0.0
+9,Washington,0.0
+9,Oregon,0.05
+9,California,0.0
+9,Georgia,0.4
+9,Michigan,-0.15
+9,Texas,0.0
+9,California,0.0
+9,California,0.0
+9,Florida,-0.2547619047619048
+9,Arkansas,0.05
+9,Washington,0.5
+9,Iowa,-0.07777777777777779
+9,Texas,0.0
+9,Texas,0.0
+9,Indiana,0.55
+9,California,-0.1875
+9,New York,-0.25
+9,Kansas,0.0
+9,New York,0.0
+9,Wisconsin,-0.1
+9,Delaware,-0.3333333333333333
+9,Illinois,-0.5
+9,Texas,0.0
+9,Washington,0.0
+9,Florida,0.5
+9,Massachusetts,-0.8
+9,Illinois,-0.5
+9,Maine,-0.1875
+9,Texas,-0.09722222222222224
+9,California,0.25
+9,California,0.3333333333333333
+9,New York,0.0
+9,California,-0.3
+9,Louisiana,-0.01249999999999999
+9,New Hampshire,0.0
+9,Indiana,-0.14333333333333337
+9,Louisiana,0.0
+9,Hawaii,-0.1875
+9,California,1.0
+9,Georgia,-0.35
+9,Massachusetts,-0.1
+9,Michigan,0.0
+9,California,0.26666666666666666
+9,Connecticut,-0.3166666666666667
+9,Arizona,0.7
+9,Maine,0.2857142857142857
+9,Pennsylvania,0.0
+9,North Carolina,0.2
+9,Ohio,0.25
+9,New Hampshire,-0.04090909090909091
+9,Virginia,0.0
+9,Texas,0.2
+9,Oregon,-0.0851851851851852
+9,Washington,-0.05
+9,Alaska,0.0
+9,Delaware,0.0
+9,Florida,0.0
+9,Washington,0.13636363636363635
+9,California,0.0
+9,North Carolina,0.0
+9,Michigan,0.05
+9,Washington,0.0
+9,Texas,0.0
+9,California,-0.024999999999999994
+9,California,0.2
+9,Alaska,0.5
+9,South Carolina,0.8
+9,Indiana,0.2
+9,Alabama,0.25
+9,New York,0.0
+9,Texas,0.0
+9,Texas,0.0
+9,Oregon,0.19999999999999998
+9,Utah,0.0
+9,California,0.5
+9,Kansas,0.0
+9,California,0.0
+9,Texas,-0.5
+9,Colorado,0.0
+9,Florida,-0.0625
+9,Pennsylvania,-0.2625
+9,Ohio,0.05000000000000002
+9,New York,0.13636363636363635
+9,Pennsylvania,-0.20185185185185187
+9,California,-0.04999999999999999
+9,California,0.425
+9,Pennsylvania,0.0
+9,Massachusetts,-0.15
+9,Washington,0.5
+9,Connecticut,-0.3166666666666667
+9,North Carolina,0.5625
+9,Texas,0.05
+9,Missouri,0.0
+9,New York,0.0
+9,Connecticut,0.0
+9,California,0.5
+9,Virginia,0.04999999999999999
+9,Indiana,-0.016666666666666663
+9,Pennsylvania,0.0
+9,North Dakota,0.05357142857142857
+9,California,-0.3
+9,Florida,-0.18181818181818182
+9,Oregon,0.0
+9,North Carolina,0.08333333333333333
+9,Colorado,0.3666666666666667
+9,Delaware,0.0
+9,California,-0.625
+9,Washington,0.5
+9,Ohio,0.0
+9,North Carolina,0.75
+9,Oklahoma,0.0
+9,Georgia,0.0
+9,New York,0.0
+9,Louisiana,0.0
+9,Texas,0.0
+9,Colorado,0.0
+9,Missouri,-0.05
+9,New Jersey,-0.9
+9,Michigan,0.15
+9,New York,0.0
+9,Oregon,0.0
+9,Alabama,0.0
+9,Washington,0.19999999999999998
+9,California,-0.125
+9,California,-0.14444444444444443
+9,California,0.0
+9,California,0.0
+9,Texas,-0.65
+9,California,0.4
+9,Texas,-0.65
+9,Iowa,0.0
+9,Kentucky,0.2
+9,Massachusetts,0.16
+9,Texas,0.0
+9,Arizona,0.0
+9,South Carolina,0.0
+9,California,0.15
+9,Pennsylvania,0.125
+9,Texas,0.2
+9,Ohio,0.16666666666666666
+9,Arizona,0.2619047619047619
+9,North Dakota,0.25
+9,New York,-0.39999999999999997
+9,California,0.0
+9,Michigan,0.0
+9,California,-0.49444444444444446
+9,Michigan,0.0
+9,Alabama,0.26190476190476186
+9,Alabama,0.26190476190476186
+9,Virginia,0.35
+9,Oklahoma,-0.07142857142857142
+9,Colorado,0.022222222222222213
+9,New York,0.0
+9,Indiana,-0.1
+9,Nebraska,-0.45
+9,Mississippi,0.0
+9,Nebraska,0.0
+9,Oklahoma,0.26785714285714285
+9,California,0.5
