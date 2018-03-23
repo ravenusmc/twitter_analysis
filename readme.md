@@ -7,7 +7,6 @@ Thus, a tweet from California that has a sentiment analysis of .54 will be place
 
 This project is a proof of concept. Its goal is to see if something like this would work and how it would look. As always, I'm up for the challenge! 
 
-
 # Getting started
 ### Installing
 
@@ -83,6 +82,6 @@ One final thing, the data collection, which is Day 1, started March 14th, 2018. 
 
 # Preview
 
-To see a video that talks about this project please go here:
+To see a video that talks about this project please go here: COMING SOON  
 
-Blog entry:
+Blog entry: COMING SOON
