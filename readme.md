@@ -82,6 +82,5 @@ One final thing, the data collection, which is Day 1, started March 14th, 2018. 
 
 # Preview
 
-To see a video that talks about this project please go here: COMING SOON  
-
-Blog entry: COMING SOON
+To see a video that talks about this project please go here: https://www.youtube.com/watch?v=hqR9qLk4lC8  
+Blog entry: https://codingsaga.wordpress.com/2018/03/27/twitter-analysis-project/
